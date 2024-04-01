@@ -88,6 +88,7 @@ public class UIChanger
 				if (Progress is { TotalProgress: > 0 } && Stopwatch.ElapsedMilliseconds > 500)
 					timer.SetText(Language.GetTextValue("Mods.AdvancedWorldGen.Timer",
 						(Stopwatch.Elapsed * (1 / Progress.TotalProgress - 1)).Humanize(2, minUnit: TimeUnit.Second)));
+				timer.Recalculate();
 			};
 			timer.Recalculate();
 
