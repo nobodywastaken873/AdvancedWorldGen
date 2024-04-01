@@ -91,15 +91,15 @@ public class SnowWorld
 	}
 
 	/*
-	 * after IL_2356e, && !OptionHelper.OptionsContains("Santa")
+	 * after IL_26ad2 ("if (type == 109)"), add && !OptionHelper.OptionsContains("Santa")
 	 */
 	public static void RemoveSnowDropDuringChristmas(ILContext il)
 	{
 		ILCursor cursor = new(il);
-		for (int i = 0; i < 4; i++)
+		for (int i = 0; i < 3; i++)
 			cursor.GotoNext(instruction => instruction.MatchLdcI4(109));
 
-		cursor.GotoNext(MoveType.After, instruction => instruction.OpCode == OpCodes.Brfalse_S);
+		cursor.GotoNext(MoveType.After, instruction => instruction.OpCode == OpCodes.Bne_Un_S);
 		object label = cursor.Prev.Operand;
 
 		cursor.OptionContains("Santa");
