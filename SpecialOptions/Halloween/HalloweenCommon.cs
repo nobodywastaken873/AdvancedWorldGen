@@ -7,7 +7,7 @@ public static class HalloweenCommon
 	public static void Setup()
 	{
 		On_Main.checkHalloween += MainOnCheckHalloween;
-		On_NPC.SetDefaults += HalloweenSwap;
+		// On_NPC.SetDefaults += HalloweenSwap;
 		On_Player.KillMe += SpawnGhostOnPlayerDeath;
 		On_NPC.DoesntDespawnToInactivity += NoGhostDespawn;
 		IL_Player.UpdateGraveyard += PermanentGraveyard;
