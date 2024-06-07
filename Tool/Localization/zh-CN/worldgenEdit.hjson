@@ -1,0 +1,23 @@
+{
+  "CustomSizes": {
+    "SizeX": "水平尺寸:",
+    "SizeY": "垂直尺寸:",
+    "TempleMultiplier": "神庙规模倍增:",
+    "DungeonMultiplier": "地牢大小倍增:",
+    "BeachMultiplier": "海洋沙滩大小倍增:",
+    "ScaledBeaches": "用世界大小来平衡海滩大小",
+    "EditTerrainPass": "在世界创建期间启用另一个自定义",
+    "TerrainType": "地形类型"
+  },
+  "Overhauled": {},
+  "TerrainPass": {},
+  "Vanilla": {
+    "Passes['Micro_Biomes']": {
+      "CorruptionPitCount": {
+        "Min": "生物群落中邪恶的最小数量",
+        "Max": "在一个生物群落中邪恶的最大数目",
+        "ScaleWith": "邪恶的数目:"
+      }
+    }
+  }
+}

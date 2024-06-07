@@ -1,0 +1,38 @@
+{
+  "Abort": "中止计划",
+  "CopySettings": "复制设置",
+  "CopiedSettings": "设置已复制",
+  "CustomSize": "自定义大小",
+  "CustomSizedWorld": "{0}x{1}",
+  "DedServ": {
+    "Import": "<options>:导入选项",
+    "InvalidId": "无效数字",
+    "InvalidImport": "无效导入",
+    "InvalidInput": "无法识别输入",
+    "Selected": "(选择)",
+    "ShowHidden": "h:显示隐藏选项",
+    "Validate": "y:验证"
+  },
+  "DeleteWorlds": "删除最后一个世界",
+  "DownLevel": "编辑将从这个种子中使用的内容",
+  "Export": "导出到剪贴板",
+  "HideHidden": {
+    "Description": "隐藏次要、不稳定的特性。"
+  },
+  "Import": "从剪贴板导入",
+  "NoOptions": "没有选择的世界",
+  "NoneSelected": {
+    "Description": "请选择您想要的选项。"
+  },
+  "OptionButton": "选择你的世界生成设置",
+  "Randomize": "随机化选项",
+  "Presets": "预设",
+  "ShowHidden": {
+    "Description": "显示次要、不稳定的特性。"
+  },
+  "Timer": "剩余时间:{0}",
+  "VanillaConfig": "原版配置",
+  "OverhauledConfig": "大修配置",
+  "OverhauledDisabled": "使大修的世界有更多的选择",
+  "Warning": "警告"
+}
