@@ -111,7 +111,7 @@
         "displayed_name": {
             "en-US": "Drunk",
             "fr-FR": "Ivre",
-            "ru-RU": "Drunk"
+            "ru-RU": "Drunk",
             "zh-Hans": "醉酒世界"
         },
         "hidden": false
@@ -226,7 +226,7 @@
                 "displayed_name": {
                     "en-US": "Jungle World",
                     "fr-FR": "Monde Jungle",
-                    "ru-RU": "Мир джунглей"
+                    "ru-RU": "Мир джунглей",
                     "zh-Hans": "丛林世界"
                 },
                 "hidden": false
