@@ -6,11 +6,13 @@
                 "conflicts": {},
                 "description": {
                     "en-US": "Spawns the group on the beach",
-                    "fr-FR": "Faît apparaître le joueur et les PNJ à la plage"
+                    "fr-FR": "Faît apparaître le joueur et les PNJ à la plage",
+                    "zh-Hans": "在海滩滩上出生"
                 },
                 "displayed_name": {
                     "en-US": "Beach Spawn",
-                    "fr-FR": "Apparition à la plage"
+                    "fr-FR": "Apparition à la plage",
+                    "zh-Hans": "海滩出生"
                 },
                 "hidden": false
             },
@@ -19,11 +21,13 @@
                 "conflicts": {},
                 "description": {
                     "en-US": "Paints the world with the Celebration colors",
-                    "fr-FR": "Peint le monde entier avec les couleurs de Celebrationmk10"
+                    "fr-FR": "Peint le monde entier avec les couleurs de Celebrationmk10",
+                    "zh-Hans": "用庆祝的颜色描绘世界"
                 },
                 "displayed_name": {
                     "en-US": "Painted",
-                    "fr-FR": "Peint"
+                    "fr-FR": "Peint",
+                    "zh-Hans": "彩漆着色"
                 },
                 "hidden": false
             }
@@ -32,12 +36,14 @@
         "description": {
             "en-US": "The tenth anniversary secret seed.",
             "fr-FR": "La graine secrète du dixième anniversaire.",
-            "ru-RU": "Секретный сид на 10-летие игры."
+            "ru-RU": "Секретный сид на 10-летие игры.",
+            "zh-Hans": "十周年纪念彩蛋种子"
         },
         "displayed_name": {
             "en-US": "Celebration Mk 10",
             "fr-FR": "Celebration Mk 10",
-            "ru-RU": "Celebration Mk 10"
+            "ru-RU": "Celebration Mk 10",
+            "zh-Hans": "庆典十周年"
         },
         "hidden": false
     },
@@ -49,12 +55,14 @@
                 "description": {
                     "en-US": "Makes so both ores are generated",
                     "fr-FR": "Fait en sourte que tous les types de minerais sont générés",
-                    "ru-RU": "Оба типа руд будут сгенерированы"
+                    "ru-RU": "Оба типа руд будут сгенерированы",
+                    "zh-Hans": "使两种类型的矿石（每种邪恶地形都有一套特殊的矿石体系）都生成。"
                 },
                 "displayed_name": {
                     "en-US": "Both Ores",
                     "fr-FR": "Tous les minerais",
-                    "ru-RU": "Оба типа руд"
+                    "ru-RU": "Оба типа руд",
+                    "zh-Hans": "醉酒世界（两套矿石体系）"
                 },
                 "hidden": false
             },
@@ -64,12 +72,14 @@
                 "description": {
                     "en-US": "Both Crimson and Corruption are in this world",
                     "fr-FR": "Le Carmin et la Corruption sont tous eux générés.",
-                    "ru-RU": "Кримзон и Порча будут сгенерированы в мире"
+                    "ru-RU": "Кримзон и Порча будут сгенерированы в мире",
+                    "zh-Hans": "猩红和腐化都存在这个世界上"
                 },
                 "displayed_name": {
                     "en-US": "Crimruption",
                     "fr-FR": "Carmruption",
-                    "ru-RU": "Кримпорча"
+                    "ru-RU": "Кримпорча",
+                    "zh-Hans": "两种邪恶环境"
                 },
                 "hidden": false
             },
@@ -79,12 +89,14 @@
                 "description": {
                     "en-US": "Makes so the Underworld has a lava ocean in the middle of the world.",
                     "fr-FR": "Crée un océan de lave au milieu de l'Enfer",
-                    "ru-RU": "В Преисподней по центру будет большое озеро лавы."
+                    "ru-RU": "В Преисподней по центру будет большое озеро лавы.",
+                    "zh-Hans": "让地狱在世界中心有一个熔岩海洋。"
                 },
                 "displayed_name": {
                     "en-US": "Spread Underworld",
                     "fr-FR": "Océan de lave",
-                    "ru-RU": "Раздвинутая Преисподняя"
+                    "ru-RU": "Раздвинутая Преисподняя",
+                    "zh-Hans": "熔洋地狱"
                 },
                 "hidden": false
             }
@@ -93,12 +105,14 @@
         "description": {
             "en-US": "The ninth anniversary secret seed.",
             "fr-FR": "La graine secrète du neuvième anniversaire.",
-            "ru-RU": "Сид на 9-летие игры."
+            "ru-RU": "Сид на 9-летие игры.",
+            "zh-Hans": "九周年纪念菜单种子"
         },
         "displayed_name": {
             "en-US": "Drunk",
             "fr-FR": "Ivre",
-            "ru-RU": "Drunk"
+            "ru-RU": "Drunk",
+            "zh-Hans": "醉酒世界"
         },
         "hidden": false
     },
@@ -108,12 +122,14 @@
         "description": {
             "en-US": "A world where each dusk and dawn, a part of the world has one type of tiles and walls randomized.",
             "fr-FR": "A monde où chaque aube et crépuscule, une partie du monde a un type de blocs et murs randomisé.",
-            "ru-RU": "Каждый день часть мира будет заменяться на случайные блоки."
+            "ru-RU": "Каждый день часть мира будет заменяться на случайные блоки.",
+            "zh-Hans": "在这个世界中，每次昼夜变换后，世界的一部分会随机方块和墙壁。"
         },
         "displayed_name": {
             "en-US": "Entropy",
             "fr-FR": "Entropie",
-            "ru-RU": "Энтропия"
+            "ru-RU": "Энтропия",
+            "zh-Hans": "混乱"
         },
         "hidden": true
     },
@@ -123,23 +139,27 @@
             "NotTheBees.JungleWorld": {
                 "en-US": "Not The Bees leaves nearly no corruptible tile.",
                 "fr-FR": "Not The Bees ne laisse pas beaucoup de bloc corruptibles.",
-                "ru-RU": "В мире пчёл нет заражаемых блоков."
+                "ru-RU": "В мире пчёл нет заражаемых блоков.",
+                "zh-Hans": "“不要”蜜蜂大部分世界被替换为丛林，蜂巢块和蜂蜜块大量出现。几乎没有留下邪恶方块。"
             },
             "Random": {
                 "en-US": "Evil only leaves a few blocks to be randomized.",
                 "fr-FR": "Maléfique ne laisse que peu de blocs à randomiser.",
-                "ru-RU": "Слишком мало блоков останется для рандомизации."
+                "ru-RU": "Слишком мало блоков останется для рандомизации.",
+                "zh-Hans": "只留下几个随机的邪恶方块。"
             }
         },
         "description": {
             "en-US": "Transforms every tile into an evil one.",
             "fr-FR": "Transforme chaque bloc en un bloc démoniaque.",
-            "ru-RU": "Весь мир будет заражён."
+            "ru-RU": "Весь мир будет заражён.",
+            "zh-Hans": "把每个图块都变成邪恶的。"
         },
         "displayed_name": {
             "en-US": "Evil",
             "fr-FR": "Maléfique",
-            "ru-RU": "Зло"
+            "ru-RU": "Зло",
+            "zh-Hans": "邪恶"
         },
         "hidden": false
     },
@@ -149,12 +169,14 @@
         "description": {
             "en-US": "The \"for the worthy\" secret seed.",
             "fr-FR": "La graine secrète \"for the worthy\".",
-            "ru-RU": "Секретный сид \"for the worthy\"."
+            "ru-RU": "Секретный сид \"for the worthy\".",
+            "zh-Hans": "\"for the worthy\"彩蛋种子。"
         },
         "displayed_name": {
             "en-US": "For The Worthy",
             "fr-FR": "For The Worthy",
-            "ru-RU": "For The Worthy"
+            "ru-RU": "For The Worthy",
+            "zh-Hans": "FTW传奇世界"
         },
         "hidden": false
     },
@@ -162,10 +184,12 @@
         "children": {},
         "conflicts": {},
         "description": {
-            "en-US": "The no traps secret seed."
+            "en-US": "The no traps secret seed.",
+            "zh-Hans": "“没有”陷阱彩蛋种子。"
         },
         "displayed_name": {
-            "en-US": "No Traps"
+            "en-US": "No Traps",
+            "zh-Hans": "“没有”陷阱"
         },
         "hidden": false
     },
@@ -177,28 +201,33 @@
                     "Evil": {
                         "en-US": "Not The Bees leaves nearly no corruptible tile.",
                         "fr-FR": "Not The Bees ne laisse pas beaucoup de bloc corruptibles.",
-                        "ru-RU": "В мире пчёл нет заражаемых блоков."
+                        "ru-RU": "В мире пчёл нет заражаемых блоков.",
+                        "zh-Hans": "“不要”蜜蜂大部分世界被替换为丛林，蜂巢块和蜂蜜块大量出现。几乎没有留下邪恶方块。"
                     },
                     "Random": {
                         "en-US": "Not The Bees only leaves a few blocks to be randomized.",
                         "fr-FR": "Not The Bees ne laisse que peu de blocs à randomiser.",
-                        "ru-RU": "Слишком мало блоков останется для рандомизации."
+                        "ru-RU": "Слишком мало блоков останется для рандомизации.",
+                        "zh-Hans": "“不要”蜜蜂只留下少量的随机邪恶方块。"
                     },
                     "Santa": {
                         "en-US": "Santa will not have much effect on a Not The Bees world.",
                         "fr-FR": "Noël n'aura pas beaucoup d'effets avec Not The Bees.",
-                        "ru-RU": "Не будет заметного эффекта в мире."
+                        "ru-RU": "Не будет заметного эффекта в мире.",
+                        "zh-Hans": "圣诞老人对“不要”蜜蜂的世界不会有太大影响。"
                     }
                 },
                 "description": {
                     "en-US": "Makes the entire world a jungle.",
                     "fr-FR": "Le monde entier est une jungle.",
-                    "ru-RU": "Весь мир будет джунглями."
+                    "ru-RU": "Весь мир будет джунглями.",
+                    "zh-Hans": "把整个世界变成了丛林。"
                 },
                 "displayed_name": {
                     "en-US": "Jungle World",
                     "fr-FR": "Monde Jungle",
-                    "ru-RU": "Мир джунглей"
+                    "ru-RU": "Мир джунглей",
+                    "zh-Hans": "丛林世界"
                 },
                 "hidden": false
             }
@@ -207,12 +236,14 @@
         "description": {
             "en-US": "The Not The Bees secret seed.",
             "fr-FR": "La graine secrète \"Not The Bees\".",
-            "ru-RU": "Секретный сид \"not the bees\"."
+            "ru-RU": "Секретный сид \"not the bees\".",
+            "zh-Hans": "“不要”蜜蜂彩蛋种子"
         },
         "displayed_name": {
             "en-US": "Not The Bees",
             "fr-FR": "Not The Bees",
-            "ru-RU": "Только Не Пчёлы!"
+            "ru-RU": "Только Не Пчёлы!",
+            "zh-Hans": "“不要”蜜蜂"
         },
         "hidden": false
     },
@@ -224,12 +255,14 @@
                 "description": {
                     "en-US": "A world where each block and wall type get a paint.",
                     "fr-FR": "A monde où chaque type de bloc et mur est peint.",
-                    "ru-RU": "Мир, в котором каждый блок и стены будут покрашены."
+                    "ru-RU": "Мир, в котором каждый блок и стены будут покрашены.",
+                    "zh-Hans": "在这个世界里，每个方块和墙壁都会刷上一种油漆。"
                 },
                 "displayed_name": {
                     "en-US": "Painted",
                     "fr-FR": "Peint",
-                    "ru-RU": "Покрашенный"
+                    "ru-RU": "Покрашенный",
+                    "zh-Hans": "彩漆着色"
                 },
                 "hidden": false
             }
@@ -238,28 +271,33 @@
             "Evil": {
                 "en-US": "Evil only leaves a few blocks to be randomized.",
                 "fr-FR": "Maléfique ne laisse que peu de blocs à randomiser.",
-                "ru-RU": "Слишком мало блоков останется для рандомизации."
+                "ru-RU": "Слишком мало блоков останется для рандомизации.",
+                "zh-Hans": "只留下几个随机的邪恶方块。"
             },
             "NotTheBees.JungleWorld": {
                 "en-US": "Not The Bees only leaves a few blocks to be randomized.",
                 "fr-FR": "Not The Bees ne laisse que peu de blocs à randomiser.",
-                "ru-RU": "Слишком мало блоков останется для рандомизации."
+                "ru-RU": "Слишком мало блоков останется для рандомизации.",
+                "zh-Hans": "“不要”蜜蜂只留下少量的随机邪恶方块。"
             },
             "Santa": {
                 "en-US": "Santa only leaves a few blocks to be randomized.",
                 "fr-FR": "Noël ne laisse que peu de blocs Ã  randomiser.",
-                "ru-RU": "Слишком мало блоков останется для рандомизации."
+                "ru-RU": "Слишком мало блоков останется для рандомизации.",
+                "zh-Hans": "圣诞老人对“不要”蜜蜂的世界不会有太大影响。"
             }
         },
         "description": {
             "en-US": "A world where each block and wall type is randomized.",
             "fr-FR": "Un monde où chaque type de bloc et mur est randomisé.",
-            "ru-RU": "Мир, в котором каждый блок и стены случайны."
+            "ru-RU": "Мир, в котором каждый блок и стены случайны.",
+            "zh-Hans": "在这个世界中，每个方块和墙壁类型都是随机的。"
         },
         "displayed_name": {
             "en-US": "Random",
             "fr-FR": "Aléatoire",
-            "ru-RU": "Случайный"
+            "ru-RU": "Случайный",
+            "zh-Hans": "随机"
         },
         "hidden": false
     },
@@ -267,11 +305,13 @@
         "children": {},
         "conflicts": {},
         "description": {
-            "en-US": "The remix secret seed."
+            "en-US": "The remix secret seed.",
+            "zh-Hans": "混合彩蛋种子"
         },
         "displayed_name": {
             "en-US": "Remix",
-            "fr-FR": "Remix"
+            "fr-FR": "Remix",
+            "zh-Hans": "混合"
         },
         "hidden": false
     },
@@ -281,31 +321,41 @@
             "NotTheBees.JungleWorld": {
                 "en-US": "Santa will not have much effect on a Not The Bees world.",
                 "fr-FR": "Noël n'aura pas beaucoup d'effets avec Not The Bees.",
-                "ru-RU": "Не будет заметного эффекта в мире."
+                "ru-RU": "Не будет заметного эффекта в мире.",
+                "zh-Hans": "圣诞老人对“不要”蜜蜂的世界不会有太大影响。"
             },
             "Random": {
                 "en-US": "Santa only leaves a few blocks to be randomized.",
                 "fr-FR": "Noël ne laisse que peu de blocs Ã  randomiser.",
-                "ru-RU": "Слишком мало блоков останется для рандомизации."
+                "ru-RU": "Слишком мало блоков останется для рандомизации.",
+                "zh-Hans": "圣诞老人只留下几个方块来随机分配。"
             }
         },
         "description": {
             "en-US": "A christmas themed world.",
             "fr-FR": "Un monde sur le thème de Noël.",
-            "ru-RU": "Рождественский мир."
+            "ru-RU": "Рождественский мир.",
+            "zh-Hans": "一个圣诞主题的世界。"
         },
         "displayed_name": {
             "en-US": "Santa",
             "fr-FR": "Noël",
-            "ru-RU": "Санта"
+            "ru-RU": "Санта",
+            "zh-Hans":"圣诞"
         },
         "hidden": false
     },
     "SortedWorld": {
         "children": {},
         "conflicts": {},
-        "description": "Sorts world by height",
-        "displayed_name": "Sorted World",
+        "description": {
+            "en-US":"Sorts world by height",
+            "zh-Hans": "世界按高度排序"
+        },
+        "displayed_name": {
+            "en-US": "Sorted World",
+            "zh-Hans": "有序世界"
+        },
         "hidden": true
     },
     "Spooky": {
@@ -314,12 +364,14 @@
         "description": {
             "en-US": "An halloween themed world.",
             "fr-FR": "Un monde sur le thème d'Halloween.",
-            "ru-RU": "Мир Хэллоуина."
+            "ru-RU": "Мир Хэллоуина.",
+            "zh-Hans": "一个万圣节主题的世界。"
         },
         "displayed_name": {
             "en-US": "Spooky",
             "fr-FR": "Sinistre",
-            "ru-RU": "Spooky"
+            "ru-RU": "Spooky",
+            "zh-Hans": "万圣节"
         },
         "hidden": true
     },
@@ -329,12 +381,14 @@
         "description": {
             "en-US": "The Don't Starve secret seed.",
             "fr-FR": "La graine secrète de Don't Starve.",
-            "ru-RU": "Секретный сид Don't Starve."
+            "ru-RU": "Секретный сид Don't Starve.",
+            "zh-Hans": "“饥荒”彩蛋种子。"
         },
         "displayed_name": {
             "en-US": "The Constant",
             "fr-FR": "Le Constant",
-            "ru-RU": "The Constant"
+            "ru-RU": "The Constant",
+            "zh-Hans": "永恒领域"
         },
         "hidden": false
     },
@@ -343,14 +397,26 @@
             "StarGame": {
                 "children": {},
                 "conflicts": {},
-                "description": "Enables the star mini-game",
-                "displayed_name": "Star Game",
+                "description": {
+                    "en-US": "Enables the star mini-game",
+                    "zh-Hans": "启用Star小游戏"
+                },
+                "displayed_name": {
+                    "en-US": "Star Game",
+                    "zh-Hans": "Star小游戏"
+                },
                 "hidden": false
             }
         },
         "conflicts": {},
-        "description": "The zenith secret seed.",
-        "displayed_name": "Zenith",
+        "description": {
+            "en-US": "The zenith secret seed.",
+            "zh-Hans": "天顶世界彩蛋种子。"
+        },
+        "displayed_name": {
+            "en-US": "Zenith",
+            "zh-Hans": "天顶世界"
+        },
         "hidden": false
     }
 }
