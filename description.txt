@@ -19,6 +19,7 @@ If someone tells you to disable it, that's dumb, if you want to fix the issue wi
  * Some option you enabled may not be supported by your combination of mods
  * Unlikely, but the overhauled option may be conflicting with another mod
 
-Also thanks to Exterminator for contributing to the code and Math!EW! for the mod icon
+Thanks to Exterminator for contributing to the code and Math!EW! for the mod icon
+Thanks Ved-s for the russian translation and Kalluj for the chinese translation
 This mod has a discord server that you can find here : https://discord.gg/ZPjnjpqeYE
 Github link : https://github.com/Ishigh1/AdvancedWorldGen
