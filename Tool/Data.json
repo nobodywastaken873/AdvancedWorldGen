@@ -37,7 +37,7 @@
             "en-US": "The tenth anniversary secret seed.",
             "fr-FR": "La graine secrète du dixième anniversaire.",
             "ru-RU": "Секретный сид на 10-летие игры.",
-            "zh-Hans": "十周年纪念秘密种子"
+            "zh-Hans": "十周年纪念彩蛋种子"
         },
         "displayed_name": {
             "en-US": "Celebration Mk 10",
@@ -106,7 +106,7 @@
             "en-US": "The ninth anniversary secret seed.",
             "fr-FR": "La graine secrète du neuvième anniversaire.",
             "ru-RU": "Сид на 9-летие игры.",
-            "zh-Hans": "九周年纪念秘密种子"
+            "zh-Hans": "九周年纪念菜单种子"
         },
         "displayed_name": {
             "en-US": "Drunk",
@@ -170,7 +170,7 @@
             "en-US": "The \"for the worthy\" secret seed.",
             "fr-FR": "La graine secrète \"for the worthy\".",
             "ru-RU": "Секретный сид \"for the worthy\".",
-            "zh-Hans": "\"for the worthy\"秘密种子。"
+            "zh-Hans": "\"for the worthy\"彩蛋种子。"
         },
         "displayed_name": {
             "en-US": "For The Worthy",
@@ -185,7 +185,7 @@
         "conflicts": {},
         "description": {
             "en-US": "The no traps secret seed.",
-            "zh-Hans": "“没有”陷阱秘密种子。"
+            "zh-Hans": "“没有”陷阱彩蛋种子。"
         },
         "displayed_name": {
             "en-US": "No Traps",
@@ -237,7 +237,7 @@
             "en-US": "The Not The Bees secret seed.",
             "fr-FR": "La graine secrète \"Not The Bees\".",
             "ru-RU": "Секретный сид \"not the bees\".",
-            "zh-Hans": "“不要”蜜蜂秘密种子"
+            "zh-Hans": "“不要”蜜蜂彩蛋种子"
         },
         "displayed_name": {
             "en-US": "Not The Bees",
@@ -306,7 +306,7 @@
         "conflicts": {},
         "description": {
             "en-US": "The remix secret seed.",
-            "zh-Hans": "混合秘密种子"
+            "zh-Hans": "混合彩蛋种子"
         },
         "displayed_name": {
             "en-US": "Remix",
@@ -382,7 +382,7 @@
             "en-US": "The Don't Starve secret seed.",
             "fr-FR": "La graine secrète de Don't Starve.",
             "ru-RU": "Секретный сид Don't Starve.",
-            "zh-Hans": "“饥荒”的秘密种子。"
+            "zh-Hans": "“饥荒”彩蛋种子。"
         },
         "displayed_name": {
             "en-US": "The Constant",
@@ -399,11 +399,11 @@
                 "conflicts": {},
                 "description": {
                     "en-US": "Enables the star mini-game",
-                    "zh-Hans": "启用“Star”小游戏"
+                    "zh-Hans": "启用Star小游戏"
                 },
                 "displayed_name": {
                     "en-US": "Star Game",
-                    "zh-Hans": "Star Game"
+                    "zh-Hans": "Star小游戏"
                 },
                 "hidden": false
             }
@@ -411,7 +411,7 @@
         "conflicts": {},
         "description": {
             "en-US": "The zenith secret seed.",
-            "zh-Hans": "天顶世界秘密种子。"
+            "zh-Hans": "天顶世界彩蛋种子。"
         },
         "displayed_name": {
             "en-US": "Zenith",
