@@ -139,6 +139,7 @@ def make_files():
     make("en-US")
     make("fr-FR")
     make("ru-RU")
+    make("zh-Hans")
 
 
 def setup():
