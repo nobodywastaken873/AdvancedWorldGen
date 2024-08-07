@@ -76,6 +76,12 @@ public static class Params
 		set => Data[nameof(Adamantite)] = value;
 	}
 
+	public static float LifeCrystalMultiplier
+	{
+		get => (float)Data[nameof(LifeCrystalMultiplier)];
+		set => Data[nameof(LifeCrystalMultiplier)] = value;
+	}
+
 	public static bool ScaledBeaches
 	{
 		get => (bool)Data[nameof(ScaledBeaches)];
@@ -117,6 +123,7 @@ public static class Params
 		TempleMultiplier = 1;
 		DungeonMultiplier = 1;
 		BeachMultiplier = 1;
+		LifeCrystalMultiplier = 1;
 
 		Copper = TileExpandableList.Random;
 		Iron = TileExpandableList.Random;

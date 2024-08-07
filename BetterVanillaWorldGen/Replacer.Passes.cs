@@ -24,6 +24,7 @@ public static partial class Replacer
 		genPasses.TryReplacePass("Shell Piles", new ShellPiles());
 		genPasses.TryReplacePass("Floating Island Houses", new FloatingHouses());
 		genPasses.TryReplacePass("Surface Ore and Stone", new SurfaceOreAndStone());
+		genPasses.TryReplacePass("Life Crystals", new LifeCrystals());
 
 		int index = genPasses.FindIndex(pass => pass.Name == "Micro Biomes");
 		if (index != -1)

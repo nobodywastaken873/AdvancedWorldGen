@@ -129,6 +129,11 @@ public class CustomSizeUI : UIState
 			};
 			uiList.Add(adamantiteList);
 
+			NumberTextBox<float> lifeCrystalModifier = new ConfigNumberTextBox<float>(nameof(Params.LifeCrystalMultiplier), 0,
+				float.PositiveInfinity, localizationPath);
+			lifeCrystalModifier.Order = index++;
+			uiList.Add(lifeCrystalModifier);
+
 			BooleanExpandableList beachList = new(nameof(Params.ScaledBeaches), localizationPath)
 			{
 				Order = index++
