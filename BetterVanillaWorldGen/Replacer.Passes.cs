@@ -15,6 +15,7 @@ public static partial class Replacer
 		genPasses.TryReplacePass("Jungle", new ModifiedJunglePass());
 		genPasses.TryReplacePass("Floating Islands", new FloatingIslands());
 		genPasses.TryReplacePass("Mushroom Patches", new MushroomPatches());
+		genPasses.TryReplacePass("Shinies", new Shinies());
 		genPasses.TryReplacePass("Corruption", new Corruption());
 		genPasses.TryReplacePass("Dungeon", new DungeonPass());
 		genPasses.TryReplacePass("Gems", new Gems());
@@ -22,10 +23,11 @@ public static partial class Replacer
 		genPasses.TryReplacePass("Jungle Temple", new JungleTemple());
 		genPasses.TryReplacePass("Jungle Chests", new JungleChests());
 		genPasses.TryReplacePass("Shell Piles", new ShellPiles());
+		genPasses.TryReplacePass("Life Crystals", new LifeCrystals());
 		genPasses.TryReplacePass("Floating Island Houses", new FloatingHouses());
 		genPasses.TryReplacePass("Surface Ore and Stone", new SurfaceOreAndStone());
-		genPasses.TryReplacePass("Life Crystals", new LifeCrystals());
-		genPasses.TryReplacePass("Shinies", new Shinies());
+		genPasses.TryReplacePass("Gems In Ice Biome", new IceGems());
+		genPasses.TryReplacePass("Random Gems", new RandomGems());
 
 		int index = genPasses.FindIndex(pass => pass.Name == "Micro Biomes");
 		if (index != -1)

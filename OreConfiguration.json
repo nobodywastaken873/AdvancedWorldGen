@@ -132,6 +132,9 @@
         "SapphireRate": 1.0,
         "EmeraldRate": 1.0,
         "RubyRate": 1.0,
-        "DiamondRate": 1.0
+        "DiamondRate": 1.0,
+        "ExposedStoneGemsRate": 1.0,
+        "ExposedIceGemsRate": 1.0,
+        "ExposedDesertGemsRate": 1.0
     }
 }
