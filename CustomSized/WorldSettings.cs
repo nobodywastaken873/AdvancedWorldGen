@@ -41,6 +41,12 @@ public class WorldSettings
 		AdvancedWorldGenMod.Instance.UIChanger.VanillaWorldGenConfigurator?.Dispose();
 		AdvancedWorldGenMod.Instance.UIChanger.VanillaWorldGenConfigurator = new VanillaWorldGenConfigurator();
 		AdvancedWorldGenMod.Instance.UIChanger.OverhauledWorldGenConfigurator = new OverhauledWorldGenConfigurator();
+		AdvancedWorldGenMod.Instance.UIChanger.CopperConfigurator = new OreTypeConfigurator("Copper");
+		AdvancedWorldGenMod.Instance.UIChanger.IronConfigurator = new OreTypeConfigurator("Iron");
+		AdvancedWorldGenMod.Instance.UIChanger.SilverConfigurator = new OreTypeConfigurator("Silver");
+		AdvancedWorldGenMod.Instance.UIChanger.GoldConfigurator = new OreTypeConfigurator("Gold");
+		AdvancedWorldGenMod.Instance.UIChanger.DemoniteConfigurator = new OreTypeConfigurator("Demonite");
+		AdvancedWorldGenMod.Instance.UIChanger.GemConfigurator = new OreTypeConfigurator("Gems");
 	}
 
 	private static void SetSize(On_UIWorldCreation.orig_ClickSizeOption orig, UIWorldCreation self, UIMouseEvent evt,

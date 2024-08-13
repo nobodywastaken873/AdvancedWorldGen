@@ -1,0 +1,137 @@
+{
+    "Copper": {
+        "Surface": {
+            "VeinMultiplier": 1.0,
+            "VeinStrengthMin": 3,
+            "VeinStrengthMax": 6,
+            "VeinStepMin": 2,
+            "VeinStepMax": 6
+        },
+        "Underground": {
+            "VeinMultiplier": 1.0,
+            "VeinStrengthMin": 3,
+            "VeinStrengthMax": 7,
+            "VeinStepMin": 3,
+            "VeinStepMax": 7
+        },
+        "Caverns": {
+            "VeinMultiplier": 1.0,
+            "VeinStrengthMin": 4,
+            "VeinStrengthMax": 9,
+            "VeinStepMin": 4,
+            "VeinStepMax": 8
+        },
+        "SkyIslands": {
+            "VeinMultiplier": 0.0,
+            "VeinStrengthMin": 4,
+            "VeinStrengthMax": 9,
+            "VeinStepMin": 4,
+            "VeinStepMax": 8
+        }
+    },
+    "Iron": {
+        "Surface": {
+            "VeinMultiplier": 1.0,
+            "VeinStrengthMin": 3,
+            "VeinStrengthMax": 7,
+            "VeinStepMin": 2,
+            "VeinStepMax": 5
+        },
+        "Underground": {
+            "VeinMultiplier": 1.0,
+            "VeinStrengthMin": 3,
+            "VeinStrengthMax": 6,
+            "VeinStepMin": 3,
+            "VeinStepMax": 6
+        },
+        "Caverns": {
+            "VeinMultiplier": 1.0,
+            "VeinStrengthMin": 4,
+            "VeinStrengthMax": 9,
+            "VeinStepMin": 4,
+            "VeinStepMax": 8
+        },
+        "SkyIslands": {
+            "VeinMultiplier": 0.0,
+            "VeinStrengthMin": 4,
+            "VeinStrengthMax": 9,
+            "VeinStepMin": 4,
+            "VeinStepMax": 8
+        }
+    },
+    "Silver": {
+        "Surface": {
+            "VeinMultiplier": 0.0,
+            "VeinStrengthMin": 3,
+            "VeinStrengthMax": 6,
+            "VeinStepMin": 3,
+            "VeinStepMax": 6
+        },
+        "Underground": {
+            "VeinMultiplier": 1.0,
+            "VeinStrengthMin": 3,
+            "VeinStrengthMax": 6,
+            "VeinStepMin": 3,
+            "VeinStepMax": 6
+        },
+        "Caverns": {
+            "VeinMultiplier": 1.0,
+            "VeinStrengthMin": 4,
+            "VeinStrengthMax": 9,
+            "VeinStepMin": 4,
+            "VeinStepMax": 8
+        },
+        "SkyIslands": {
+            "VeinMultiplier": 1.0,
+            "VeinStrengthMin": 4,
+            "VeinStrengthMax": 9,
+            "VeinStepMin": 4,
+            "VeinStepMax": 8
+        }
+    },
+    "Gold": {
+        "Surface": {
+            "VeinMultiplier": 0.0,
+            "VeinStrengthMin": 4,
+            "VeinStrengthMax": 8,
+            "VeinStepMin": 4,
+            "VeinStepMax": 8
+        },
+        "Underground": {
+            "VeinMultiplier": 0.0,
+            "VeinStrengthMin": 4,
+            "VeinStrengthMax": 8,
+            "VeinStepMin": 4,
+            "VeinStepMax": 8
+        },
+        "Caverns": {
+            "VeinMultiplier": 1.0,
+            "VeinStrengthMin": 4,
+            "VeinStrengthMax": 8,
+            "VeinStepMin": 4,
+            "VeinStepMax": 8
+        },
+        "SkyIslands": {
+            "VeinMultiplier": 1.0,
+            "VeinStrengthMin": 4,
+            "VeinStrengthMax": 8,
+            "VeinStepMin": 4,
+            "VeinStepMax": 8
+        }
+    },
+    "Demonite": {
+        "UndergroundCavernsRate": 1.0,
+        "VeinStrengthMin": 3,
+        "VeinStrengthMax": 6,
+        "VeinStepMin": 4,
+        "VeinStepMax": 8
+    },
+    "Gems": {
+        "TopazRate": 1.0,
+        "AmethystRate": 1.0,
+        "SapphireRate": 1.0,
+        "EmeraldRate": 1.0,
+        "RubyRate": 1.0,
+        "DiamondRate": 1.0
+    }
+}

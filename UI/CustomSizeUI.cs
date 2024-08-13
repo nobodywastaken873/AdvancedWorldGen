@@ -151,6 +151,17 @@ public class CustomSizeUI : UIState
 				Order = index++
 			};
 			uiList.Add(terrainTypeList);
+
+			UITextPanel<string> goToOreConfig =
+				new(Language.GetTextValue("Mods.AdvancedWorldGen.OreConfig"))
+				{
+					Width = new StyleDimension(0f, 1f)
+				};
+			uiList.Add(goToOreConfig);
+
+			goToOreConfig.OnLeftClick += ConfigOreWorldGen;
+			goToOreConfig.OnMouseOver += UIChanger.FadedMouseOver;
+			goToOreConfig.OnMouseOut += UIChanger.FadedMouseOut;
 		}
 		else
 		{
@@ -205,6 +216,12 @@ public class CustomSizeUI : UIState
 	{
 		SoundEngine.PlaySound(SoundID.MenuOpen);
 		Main.MenuUI.SetState(AdvancedWorldGenMod.Instance.UIChanger.OverhauledWorldGenConfigurator);
+	}
+
+	private static void ConfigOreWorldGen(UIMouseEvent evt, UIElement listeningElement)
+	{
+		SoundEngine.PlaySound(SoundID.MenuOpen);
+		Main.MenuUI.SetState(new OreWorldGenConfigurator());
 	}
 
 	private void GoBack(UIMouseEvent evt, UIElement listeningElement)

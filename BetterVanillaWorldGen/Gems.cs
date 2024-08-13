@@ -8,6 +8,7 @@ public class Gems : ControlledWorldGenPass
 
 	protected override void ApplyPass()
 	{
+		GameConfiguration GemConfig = AdvancedWorldGenMod.Instance.UIChanger.GemConfigurator.Configuration;
 		Progress.Message = Lang.gen[23].Value;
 		Main.tileSolid[484] = false;
 		for (int gemType = 63; gemType <= 68; gemType++)
@@ -16,12 +17,12 @@ public class Gems : ControlledWorldGenPass
 			Progress.Set(value13);
 			double gemClusters = gemType switch
 			{
-				67 => Main.maxTilesX * 0.5,
-				66 => Main.maxTilesX * 0.45,
-				63 => Main.maxTilesX * 0.3,
-				65 => Main.maxTilesX * 0.25,
-				64 => Main.maxTilesX * 0.1,
-				68 => Main.maxTilesX * 0.05,
+				67 => Main.maxTilesX * 0.5 * GemConfig.Get<double>("AmethystRate"),
+				66 => Main.maxTilesX * 0.45 * GemConfig.Get<double>("TopazRate"),
+				63 => Main.maxTilesX * 0.3 * GemConfig.Get<double>("SapphireRate"),
+				65 => Main.maxTilesX * 0.25 * GemConfig.Get<double>("EmeraldRate"),
+				64 => Main.maxTilesX * 0.1 * GemConfig.Get<double>("RubyRate"),
+				68 => Main.maxTilesX * 0.05 * GemConfig.Get<double>("DiamondRate"),
 				_ => 0.0
 			};
 
