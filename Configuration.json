@@ -34,5 +34,12 @@
       "Max": 170,
       "ScaleWith": "WorldHeight"
     }
+  },
+  "SurfaceChests": {
+    "Count": {
+      "Min": 21,
+      "Max": 21,
+      "ScaleWith": "WorldWidth"
+    }
   }
 }
