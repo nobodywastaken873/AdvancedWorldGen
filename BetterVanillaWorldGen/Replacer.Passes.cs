@@ -26,6 +26,7 @@ public static partial class Replacer
 		genPasses.TryReplacePass("Life Crystals", new LifeCrystals());
 		genPasses.TryReplacePass("Statues", new Statues());
 		genPasses.TryReplacePass("Surface Chests", new SurfaceChests());
+		genPasses.TryReplacePass("Water Chests", new WaterChests());
 		genPasses.TryReplacePass("Floating Island Houses", new FloatingHouses());
 		genPasses.TryReplacePass("Surface Ore and Stone", new SurfaceOreAndStone());
 		genPasses.TryReplacePass("Traps", new Traps());

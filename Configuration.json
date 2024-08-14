@@ -41,5 +41,12 @@
       "Max": 21,
       "ScaleWith": "WorldWidth"
     }
+  },
+  "WaterChests": {
+    "Count": {
+      "Min": 18,
+      "Max": 18,
+      "ScaleWith": "WorldWidth"
+    }
   }
 }
