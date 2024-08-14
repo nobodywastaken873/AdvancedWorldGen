@@ -48,5 +48,12 @@
       "Max": 18,
       "ScaleWith": "WorldWidth"
     }
+  },
+  "SpiderCaves": {
+    "Count": {
+      "Min": 21,
+      "Max": 21,
+      "ScaleWith": "WorldWidth"
+    }
   }
 }
