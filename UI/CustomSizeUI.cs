@@ -153,7 +153,7 @@ public class CustomSizeUI : UIState
 			uiList.Add(terrainTypeList);
 
 			UITextPanel<string> goToOreConfig =
-				new(Language.GetTextValue("Mods.AdvancedWorldGen.OreConfig"))
+				new(Language.GetTextValue("Mods.AdvancedWorldGen.MiscConfig"))
 				{
 					Width = new StyleDimension(0f, 1f)
 				};
@@ -221,7 +221,7 @@ public class CustomSizeUI : UIState
 	private static void ConfigOreWorldGen(UIMouseEvent evt, UIElement listeningElement)
 	{
 		SoundEngine.PlaySound(SoundID.MenuOpen);
-		Main.MenuUI.SetState(new OreWorldGenConfigurator());
+		Main.MenuUI.SetState(new MiscWorldGenConfigurator());
 	}
 
 	private void GoBack(UIMouseEvent evt, UIElement listeningElement)

@@ -11,12 +11,13 @@ public class UIChanger
 	private Thread Thread = null!;
 	public VanillaWorldGenConfigurator? VanillaWorldGenConfigurator;
 	public UIState UIWorldCreation;
-	public OreTypeConfigurator? CopperConfigurator;
-	public OreTypeConfigurator? IronConfigurator;
-	public OreTypeConfigurator? SilverConfigurator;
-	public OreTypeConfigurator? GoldConfigurator;
-	public OreTypeConfigurator? DemoniteConfigurator;
-	public OreTypeConfigurator? GemConfigurator;
+	public JsonSegmentConfigurator? CopperConfigurator;
+	public JsonSegmentConfigurator? IronConfigurator;
+	public JsonSegmentConfigurator? SilverConfigurator;
+	public JsonSegmentConfigurator? GoldConfigurator;
+	public JsonSegmentConfigurator? DemoniteConfigurator;
+	public JsonSegmentConfigurator? GemConfigurator;
+	public JsonSegmentConfigurator? TrapConfigurator;
 
 	public UIChanger(Mod mod)
 	{

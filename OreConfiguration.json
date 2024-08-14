@@ -136,5 +136,10 @@
         "ExposedStoneGemsRate": 1.0,
         "ExposedIceGemsRate": 1.0,
         "ExposedDesertGemsRate": 1.0
+    },
+    "Traps": {
+        "TrapRate": 1.0,
+        "TntBarrelRateInNoTraps": 1.0,
+        "StatueRate": 1.0
     }
 }

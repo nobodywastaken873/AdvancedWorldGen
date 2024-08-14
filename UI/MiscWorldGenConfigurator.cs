@@ -1,10 +1,10 @@
 namespace AdvancedWorldGen.UI;
 
-public class OreWorldGenConfigurator : UIState
+public class MiscWorldGenConfigurator : UIState
 {
 	public WorldSettings WorldSettings;
 
-	public OreWorldGenConfigurator()
+	public MiscWorldGenConfigurator()
 	{
 		WorldSettings = OptionHelper.WorldSettings;
 		CreateCustomSizeUI();
@@ -116,6 +116,17 @@ public class OreWorldGenConfigurator : UIState
 		goToGemsConfig.OnMouseOver += UIChanger.FadedMouseOver;
 		goToGemsConfig.OnMouseOut += UIChanger.FadedMouseOut;
 
+		UITextPanel<string> goToTrapsConfig =
+			new(Language.GetTextValue("Mods.AdvancedWorldGen.TrapsConfig"))
+			{
+				Width = new StyleDimension(0f, 1f)
+			};
+		uiList.Add(goToTrapsConfig);
+
+		goToTrapsConfig.OnLeftClick += ConfigTrapWorldGen;
+		goToTrapsConfig.OnMouseOver += UIChanger.FadedMouseOver;
+		goToTrapsConfig.OnMouseOut += UIChanger.FadedMouseOut;
+
 		UITextPanel<string> goBack = new(Language.GetTextValue("UI.Back"))
 		{
 			Width = new StyleDimension(0f, 0.1f),
@@ -162,6 +173,12 @@ public class OreWorldGenConfigurator : UIState
 	{
 		SoundEngine.PlaySound(SoundID.MenuOpen);
 		Main.MenuUI.SetState(AdvancedWorldGenMod.Instance.UIChanger.GemConfigurator);
+	}
+
+	private static void ConfigTrapWorldGen(UIMouseEvent evt, UIElement listeningElement)
+	{
+		SoundEngine.PlaySound(SoundID.MenuOpen);
+		Main.MenuUI.SetState(AdvancedWorldGenMod.Instance.UIChanger.TrapConfigurator);
 	}
 
 	private void GoBack(UIMouseEvent evt, UIElement listeningElement)

@@ -35,11 +35,12 @@
   "OverhauledConfig": "Overhauled configuration",
   "OverhauledDisabled": "Enable overhauled worldgen to have more options",
   "Warning": "Warning"
-  "OreConfig": "Ore configuration"
+  "MiscConfig": "Misc configuration"
   "CopperConfig": "Copper"
   "IronConfig": "Iron"
   "SilverConfig": "Silver"
   "GoldConfig": "Gold"
   "DemoniteConfig": "Demonite"
   "GemsConfig": "Gems"
+  "TrapsConfig": "Traps"
 }

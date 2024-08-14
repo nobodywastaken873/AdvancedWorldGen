@@ -41,12 +41,13 @@ public class WorldSettings
 		AdvancedWorldGenMod.Instance.UIChanger.VanillaWorldGenConfigurator?.Dispose();
 		AdvancedWorldGenMod.Instance.UIChanger.VanillaWorldGenConfigurator = new VanillaWorldGenConfigurator();
 		AdvancedWorldGenMod.Instance.UIChanger.OverhauledWorldGenConfigurator = new OverhauledWorldGenConfigurator();
-		AdvancedWorldGenMod.Instance.UIChanger.CopperConfigurator = new OreTypeConfigurator("Copper");
-		AdvancedWorldGenMod.Instance.UIChanger.IronConfigurator = new OreTypeConfigurator("Iron");
-		AdvancedWorldGenMod.Instance.UIChanger.SilverConfigurator = new OreTypeConfigurator("Silver");
-		AdvancedWorldGenMod.Instance.UIChanger.GoldConfigurator = new OreTypeConfigurator("Gold");
-		AdvancedWorldGenMod.Instance.UIChanger.DemoniteConfigurator = new OreTypeConfigurator("Demonite");
-		AdvancedWorldGenMod.Instance.UIChanger.GemConfigurator = new OreTypeConfigurator("Gems");
+		AdvancedWorldGenMod.Instance.UIChanger.CopperConfigurator = new JsonSegmentConfigurator("Copper");
+		AdvancedWorldGenMod.Instance.UIChanger.IronConfigurator = new JsonSegmentConfigurator("Iron");
+		AdvancedWorldGenMod.Instance.UIChanger.SilverConfigurator = new JsonSegmentConfigurator("Silver");
+		AdvancedWorldGenMod.Instance.UIChanger.GoldConfigurator = new JsonSegmentConfigurator("Gold");
+		AdvancedWorldGenMod.Instance.UIChanger.DemoniteConfigurator = new JsonSegmentConfigurator("Demonite");
+		AdvancedWorldGenMod.Instance.UIChanger.GemConfigurator = new JsonSegmentConfigurator("Gems");
+		AdvancedWorldGenMod.Instance.UIChanger.TrapConfigurator = new JsonSegmentConfigurator("Traps");
 	}
 
 	private static void SetSize(On_UIWorldCreation.orig_ClickSizeOption orig, UIWorldCreation self, UIMouseEvent evt,

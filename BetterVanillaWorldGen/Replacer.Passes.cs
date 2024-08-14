@@ -24,10 +24,13 @@ public static partial class Replacer
 		genPasses.TryReplacePass("Jungle Chests", new JungleChests());
 		genPasses.TryReplacePass("Shell Piles", new ShellPiles());
 		genPasses.TryReplacePass("Life Crystals", new LifeCrystals());
+		genPasses.TryReplacePass("Statues", new Statues());
 		genPasses.TryReplacePass("Floating Island Houses", new FloatingHouses());
 		genPasses.TryReplacePass("Surface Ore and Stone", new SurfaceOreAndStone());
+		genPasses.TryReplacePass("Traps", new Traps());
 		genPasses.TryReplacePass("Gems In Ice Biome", new IceGems());
 		genPasses.TryReplacePass("Random Gems", new RandomGems());
+		genPasses.TryReplacePass("Traps", new Traps());
 
 		int index = genPasses.FindIndex(pass => pass.Name == "Micro Biomes");
 		if (index != -1)

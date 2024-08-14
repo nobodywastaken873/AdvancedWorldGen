@@ -1,17 +1,17 @@
 namespace AdvancedWorldGen.UI;
 
-public class OreTypeConfigurator : UIState
+public class JsonSegmentConfigurator : UIState
 {
 	public readonly GameConfiguration Configuration = null!;
 	public static JObject? Root;
 
-	public OreTypeConfigurator(String ore)
+	public JsonSegmentConfigurator(String seg)
 	{
 		Root = new GameConfiguration(JsonConvert.DeserializeObject<JObject>(
-			Encoding.UTF8.GetString(AdvancedWorldGenMod.Instance.GetFileBytes("OreConfiguration.json")))).Get<JObject>(ore);
+			Encoding.UTF8.GetString(AdvancedWorldGenMod.Instance.GetFileBytes("OreConfiguration.json")))).Get<JObject>(seg);
 		Configuration = new GameConfiguration(Root);
 
-		SetupUI(ore);
+		SetupUI(seg);
 	}
 
 	private void SetupUI(String ore)
@@ -116,6 +116,6 @@ public class OreTypeConfigurator : UIState
 	private static void GoBack(UIMouseEvent evt, UIElement listeningElement)
 	{
 		SoundEngine.PlaySound(SoundID.MenuClose);
-		Main.MenuUI.SetState(new OreWorldGenConfigurator());
+		Main.MenuUI.SetState(new MiscWorldGenConfigurator());
 	}
 }

@@ -1,4 +1,4 @@
-﻿namespace AdvancedWorldGen.BetterVanillaWorldGen.Traps;
+﻿namespace AdvancedWorldGen.BetterVanillaWorldGen.TrapStuff;
 
 public static class PlaceTraps
 {
