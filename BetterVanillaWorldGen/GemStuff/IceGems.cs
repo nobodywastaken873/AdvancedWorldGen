@@ -1,4 +1,4 @@
-namespace AdvancedWorldGen.BetterVanillaWorldGen;
+namespace AdvancedWorldGen.BetterVanillaWorldGen.GemStuff;
 
 public class IceGems : ControlledWorldGenPass
 {
@@ -8,6 +8,7 @@ public class IceGems : ControlledWorldGenPass
 
     protected override void ApplyPass()
     {
+        Progress.Set(1.0);
         double iceGemsRate = AdvancedWorldGenMod.Instance.UIChanger.GemConfigurator.Configuration.Get<double>("ExposedIceGemsRate");
         for (int index277 = 0; (double)index277 < (double)Main.maxTilesX * 0.25 * iceGemsRate; ++index277)
         {

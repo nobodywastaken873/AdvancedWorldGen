@@ -1,4 +1,4 @@
-namespace AdvancedWorldGen.BetterVanillaWorldGen;
+namespace AdvancedWorldGen.BetterVanillaWorldGen.GemStuff;
 
 public class Gems : ControlledWorldGenPass
 {

@@ -2,49 +2,49 @@ namespace AdvancedWorldGen.BetterVanillaWorldGen;
 
 public class LifeCrystals : ControlledWorldGenPass
 {
-	public LifeCrystals() : base("Life Crystals", 895.426f)
-	{
-	}
+  public LifeCrystals() : base("Life Crystals", 895.426f)
+  {
+  }
 
-	protected override void ApplyPass()
-	{
-		if (WorldGen.getGoodWorldGen)
-          Main.tileSolid[56] = false;
-        /*if (WorldGen.notTheBees)
-          WorldGen.NotTheBees();*/
-        Progress.Message = Lang.gen[28].Value;
-        double num216 = (double) (Main.maxTilesX * Main.maxTilesY) * 2E-05 * Params.LifeCrystalMultiplier;
-        if (WorldGen.tenthAnniversaryWorldGen)
-          num216 *= 1.2;
-        if (Main.starGame)
-          num216 *= Main.starGameMath(0.2);
-        for (int index = 0; index < (int) num216; ++index)
+  protected override void ApplyPass()
+  {
+    if (WorldGen.getGoodWorldGen)
+      Main.tileSolid[56] = false;
+    /*if (WorldGen.notTheBees)
+      WorldGen.NotTheBees();*/
+    Progress.Message = Lang.gen[28].Value;
+    double num216 = (double)(Main.maxTilesX * Main.maxTilesY) * 2E-05 * Params.LifeCrystalMultiplier;
+    if (WorldGen.tenthAnniversaryWorldGen)
+      num216 *= 1.2;
+    if (Main.starGame)
+      num216 *= Main.starGameMath(0.2);
+    for (int index = 0; index < (int)num216; ++index)
+    {
+      double num217 = (double)index / ((double)(Main.maxTilesX * Main.maxTilesY) * 2E-05);
+      Progress.Set(num217);
+      bool flag = false;
+      int num218 = 0;
+      while (!flag)
+      {
+        int j = WorldGen.genRand.Next((int)(Main.worldSurface * 2.0 + Main.rockLayer) / 3, Main.maxTilesY - 300);
+        if (WorldGen.remixWorldGen)
+          j = WorldGen.genRand.Next((int)Main.worldSurface, Main.maxTilesY - 400);
+        if (WorldGen.AddLifeCrystal(WorldGen.genRand.Next(Main.offLimitBorderTiles, Main.maxTilesX - Main.offLimitBorderTiles), j))
         {
-          double num217 = (double) index / ((double) (Main.maxTilesX * Main.maxTilesY) * 2E-05);
-          Progress.Set(num217);
-          bool flag = false;
-          int num218 = 0;
-          while (!flag)
-          {
-            int j = WorldGen.genRand.Next((int) (Main.worldSurface * 2.0 + Main.rockLayer) / 3, Main.maxTilesY - 300);
-            if (WorldGen.remixWorldGen)
-              j = WorldGen.genRand.Next((int) Main.worldSurface, Main.maxTilesY - 400);
-            if (WorldGen.AddLifeCrystal(WorldGen.genRand.Next(Main.offLimitBorderTiles, Main.maxTilesX - Main.offLimitBorderTiles), j))
-            {
-              flag = true;
-            }
-            else
-            {
-              ++num218;
-              if (num218 >= 10000)
-                flag = true;
-            }
-          }
+          flag = true;
         }
-        Main.tileSolid[225] = false;
-	}
+        else
+        {
+          ++num218;
+          if (num218 >= 10000)
+            flag = true;
+        }
+      }
+    }
+    Main.tileSolid[225] = false;
+  }
 
-	/*private static void NotTheBees()
+  /*private static void NotTheBees()
     {
       int num = Main.maxTilesX / 7;
       if (!WorldGen.notTheBees)
