@@ -55,5 +55,12 @@
       "Max": 21,
       "ScaleWith": "WorldWidth"
     }
+  },
+  "GemCaves": {
+    "Count": {
+      "Min": 12.6,
+      "Max": 12.6,
+      "ScaleWith": "WorldWidth"
+    }
   }
 }
