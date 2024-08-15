@@ -62,5 +62,12 @@
       "Max": 12.6,
       "ScaleWith": "WorldWidth"
     }
+  },
+  "Hellforges": {
+    "Count": {
+      "Min": 21,
+      "Max": 21,
+      "ScaleWith": "WorldWidth"
+    }
   }
 }
